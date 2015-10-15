@@ -1,1 +1,3 @@
-include ':app'
+include ':app', ':volley1', ':slideDateTimePicker'
+project(':volley1').projectDir = new File('volley')
+project(':slideDateTimePicker').projectDir = new File('slideDateTimePicker')

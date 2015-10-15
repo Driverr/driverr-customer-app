@@ -1,4 +1,5 @@
 <RelativeLayout
+    android:id="@+id/mapsContainer"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,16 +13,73 @@
 
     <fragment
         android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:name="org.driverr.abhisheknair.driverrapp.utils.CustomMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tool_bar"/>
+
+    <include
+        android:id="@+id/marker_view_incl"
+        layout="@layout/marker_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/mapsLocationLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/tool_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/margin_right_left"
+        android:layout_marginRight="@dimen/margin_right_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/setLocationTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/set_location"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="@dimen/set_location_size"/>
+
+        <TextView
+            android:id="@+id/currentLocationTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="false"/>
+
+    </LinearLayout>
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mapsLocationLl"
+        android:layout_above="@id/selectTv"
+        android:layout_marginTop="@dimen/conirmation_top_margin"
+        android:layout_marginBottom="@dimen/conirmation_bottom_margin"
+        android:layout_marginRight="@dimen/conirmation_right_margin"
+        android:layout_marginLeft="@dimen/conirmation_left_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    -->
+    <Button
         android:id="@+id/selectTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@android:color/white"
+        android:layout_marginBottom="@dimen/select_margin_bottom"
+        android:layout_marginLeft="@dimen/select_margin_right_left"
+        android:layout_marginRight="@dimen/select_margin_right_left"
+        android:background="@android:color/holo_blue_dark"
         android:gravity="center"
         android:text="@string/select_ride_time"
         android:textSize="@dimen/select_text_size"/>

@@ -1,6 +1,78 @@
 <resources>
+    <!-- Maps Activity Strings -->
     <string name="app_name">Driverr</string>
-    <string name="title_activity_maps">Driverr</string>
-    <string name="select_ride_time">Select Time</string>
-    <string name="select_driver">Select Driver</string>
+    <string name="app_name_caps">DRIVERR</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="select_ride_time">SET TIME</string>
+    <string name="select_driver">CONFIRM DRIVER</string>
+    <string name="cancel_driver">CANCEL</string>
+    <string name="confirm_driver">CONFIRM</string>
+    <string name="confirmation_details">Confirm Details</string>
+    <string name="change_details">Change Details</string>
+    <string name="ok">OK</string>
+    <string name="set_location">Pickup Location</string>
+    <string name="connection_could_not_be_made">Connection Could not be made. Try Again</string>
+    <string name="one_hour_error">We need 60 minutes to find you the perfect driver!</string>
+    <string name="previous_time_error_message">Oops! Please select a time in the future</string>
+    <string name="booking_error">All our drivers are currently occupied! Kindly try again later.</string>
+    <string name="title_activity_driver_list">DriverListActivity</string>
+    <string name="finding_driver_message">Confirming your booking....</string>
+    <string name="city_error">Uh-oh, we are not available in your city right now.</string>
+
+    <!-- Login Strings-->
+
+    <!--Menu Strings-->
+    <string name="fare_card">Fare Card</string>
+    <string name="faq">FAQs</string>
+    <string name="my_rides">My Rides</string>
+    <string name="about_us">About Us</string>
+
+    <!-- Login Activity Strings -->
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="login_progress_msg">Logging In....</string>
+    <string name="registration_progress_msg">Registering ....</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_error">Login Error</string>
+    <string name="registration_error">Registration Error</string>
+
+    <!-- Success Activity Strings-->
+    <string name="success_string">Voila! Your booking has been confirmed.
+        You will receive a call confirming the details of your driver within the next 10 minutes.</string>
+
+    <!--Fare Card Strings-->
+    <string name="fare_card_string">Day: Rs. 99/- per hour. Flat.</string>
+    <string name="fare_card_night_string"> Night: Base Fare Rs. 250 + Rs. 99/- per hour.</string>
+
+    <!--FAQ Strings-->
+    <string name="faq1">Q. What is Driverr?</string>
+    <string name="faq1_ans">A.  We are an on-demand driver service. Our skilled and verified driver
+        comes to your doorsteps and drives your car, while you sit peacefully and enjoy the ride!</string>
+    <string name="faq2">Q. What areas is Driverr operational in?</string>
+    <string name="faq2_ans">A.  We are only Operational in Mumbai and currently provide pick-ups from
+        Lower Parel to Bandra</string>
+    <string name="faq3">Q. How much does it cost?</string>
+    <string name="faq3_ans">A.  Rs. 99/Hr. Flat.  (day)
+        Additional charges in the night.
+        After the driver reaches your place, a bonus waiting time of 10 mins is provided.
+        Post that, the service time of the driver is chargeable.</string>
+    <string name="faq4">Q. How do I make a payment?</string>
+    <string name="faq4_ans">A.  Currently at the end of the trip, please pay the Driver by cash.</string>
+    <string name="faq5">Q. What if I need to go outstation?</string>
+    <string name="faq5_ans">A.  Yes, we do serve Drivers for outstation trips.
+        For any special request, please call us at +91-8767343717.</string>
+    <string name="faq6">Q. Can I make a night booking?</string>
+    <string name="faq6_ans">A.  Yes. We are operational 24 hours.</string>
+    <string name="faq7">Q. What is the minimum time before a driver comes to my doorstep?</string>
+    <string name="faq7_ans">A.  We currently require a buffer of 1 hour to serve your requests.</string>
+    <string name="faq8">Q. Is there an extra charge for one way trips?</string>
+    <string name="faq8_ans">A.  Yes. A Rs. 50 extra cost is applicable for one-way trips.</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_fare_card">Fare Card</string>
+    <string name="title_activity_faq">FAQActivity</string>
 </resources>

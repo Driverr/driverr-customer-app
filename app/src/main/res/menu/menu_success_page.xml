@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.abhisheknair.driverrapp.DriverListActivity">
+      <item android:id="@+id/action_fareCard"
+            android:title="@string/fare_card"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+      <item android:id="@+id/action_faq"
+            android:title="@string/faq"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+      <item android:id="@+id/action_myRides"
+            android:title="@string/my_rides"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+      <item android:id="@+id/action_aboutUs"
+            android:title="@string/about_us"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+</menu>
